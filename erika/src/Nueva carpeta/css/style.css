@@ -1,0 +1,77 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.campoLogin{
+    width: 320px;
+    height: 420px;
+    background: #868383b2;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.campoLogin .perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.campoLogin h1{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.campoLogin input{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.campoLogin input[type="text"],
+.campoLogin input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.campoLogin input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #01d28e;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.campoLogin a{
+    margin: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.campoLogin a:hover{
+    color: white;
+}
